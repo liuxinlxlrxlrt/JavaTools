@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ExcelTool/ExcelTool.iml" filepath="$PROJECT_DIR$/ExcelTool/ExcelTool.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaTools.iml" filepath="$PROJECT_DIR$/.idea/JavaTools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TnterfaceTool/TnterfaceTool.iml" filepath="$PROJECT_DIR$/TnterfaceTool/TnterfaceTool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tools/Tools.iml" filepath="$PROJECT_DIR$/Tools/Tools.iml" />
     </modules>
   </component>
 </project>
