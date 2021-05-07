@@ -15,13 +15,13 @@ public class WriteDataToExcelTest {
         //创建工作表
         XSSFSheet sheet = workbook.createSheet("工作表一");
         //创建行
-        XSSFRow row=sheet.createRow(0);
+        XSSFRow row = sheet.createRow(0);
         //创建单元格
         row.createCell(0).setCellValue("传智播客");
         row.createCell(1).setCellValue("黑马程序员");
         row.createCell(2).setCellValue("博学谷");
 
-        row=sheet.createRow(1);
+        row = sheet.createRow(1);
         row.createCell(0).setCellValue("传智播客");
         row.createCell(1).setCellValue("黑马程序员");
         row.createCell(2).setCellValue("博学谷");

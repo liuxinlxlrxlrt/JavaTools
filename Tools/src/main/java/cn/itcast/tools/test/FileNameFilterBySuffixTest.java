@@ -15,13 +15,13 @@ public class FileNameFilterBySuffixTest {
         File file = new File("D:\\学习\\7_学习总结\\xmind总结\\excel文件");
         FileNameFilterBySuffix filter1 = new FileNameFilterBySuffix(".xls");
         String[] files1 = file.list(filter1);
-        for(String f1 :files1){
+        for (String f1 : files1) {
             System.out.println(f1);
         }
         System.out.println("-------------------");
         FileNameFilterBySuffix filter2 = new FileNameFilterBySuffix(".xlsx");
         String[] files2 = file.list(filter2);
-        for(String f2 :files2){
+        for (String f2 : files2) {
             System.out.println(f2);
         }
     }

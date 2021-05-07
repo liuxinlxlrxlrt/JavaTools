@@ -40,9 +40,9 @@ public class PropertiesTest {
 
         System.out.println("----------------------------");
 
-        PropertiesUtils.witieValueToPropetites(filePath,"test.port","8888","");
+        PropertiesUtils.witieValueToPropetites(filePath, "test.port", "8888", "");
         String port = PropertiesUtils.getPropertiesValueByFileInputStream(filePath).getProperty("test.port").toString();
-        System.out.println("port："+port);
+        System.out.println("port：" + port);
 
     }
 }

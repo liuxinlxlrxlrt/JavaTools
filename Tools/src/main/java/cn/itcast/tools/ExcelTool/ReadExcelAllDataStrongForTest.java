@@ -18,11 +18,11 @@ public class ReadExcelAllDataStrongForTest {
         XSSFSheet sheet = workbook.getSheetAt(0);
         //增强for循环
         //获取行
-        for(Row row:sheet){
+        for (Row row : sheet) {
             //获取单元格
-            for(Cell cell:row){
+            for (Cell cell : row) {
                 //获取单元格中的内容
-                String value=cell.getStringCellValue();
+                String value = cell.getStringCellValue();
                 System.out.println(value);
             }
         }

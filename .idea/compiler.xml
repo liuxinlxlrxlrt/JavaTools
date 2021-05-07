@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="JVM" />
         <module name="TnterfaceTool" />
         <module name="Tools" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="JVM" target="1.5" />
       <module name="TnterfaceTool" target="1.5" />
       <module name="Tools" target="1.5" />
     </bytecodeTargetLevel>

@@ -28,8 +28,8 @@ public class DataProviderTest {
         System.out.println("user testdata" + user.toString());
     }
 
-    @Test(dataProvider = "DataProviderData",dataProviderClass = DataProviderData.class)
-    public void dataProviderData(String number, String name, String price, String store)throws IOException{
+    @Test(dataProvider = "DataProviderData", dataProviderClass = DataProviderData.class)
+    public void dataProviderData(String number, String name, String price, String store) throws IOException {
         User user = new User();
         user.setNumber(number);
         user.setName(name);
