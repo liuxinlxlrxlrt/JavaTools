@@ -25,7 +25,7 @@ public class ExcelDataTest {
     }
     @Test
     public void excelDataTest1() throws IOException {
-        Object[][] objects = new ExcelData("login.xlsx", "Sheet1").getData();
+        Object[][] objects = new ExcelData("data.xlsx", "Sheet1").getData();
 
         ;
         for (int i=0;i<objects.length;i++){

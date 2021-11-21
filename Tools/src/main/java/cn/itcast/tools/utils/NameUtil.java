@@ -3,6 +3,9 @@ package cn.itcast.tools.utils;
 import java.io.UnsupportedEncodingException;
 import java.util.Random;
 
+/**
+ * 随机生成汉字，随机生成数字
+ */
 public class NameUtil {
     /**
      * 获取随机数

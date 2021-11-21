@@ -271,4 +271,9 @@ public class RandomUtils {
             return res;
         }
     }
+
+    public static void main(String[] args) {
+        String chineseWord = getChineseWord(90);
+        System.out.println(chineseWord);
+    }
 }

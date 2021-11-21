@@ -11,10 +11,9 @@
         <module name="Tools" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.7">
       <module name="JVM" target="1.5" />
-      <module name="TnterfaceTool" target="1.5" />
-      <module name="Tools" target="1.5" />
+      <module name="Tools" target="7" />
     </bytecodeTargetLevel>
   </component>
 </project>

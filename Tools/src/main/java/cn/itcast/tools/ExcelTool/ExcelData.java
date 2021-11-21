@@ -6,9 +6,7 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
+import java.io.*;
 
 public class ExcelData {
     public XSSFWorkbook workbook;
@@ -57,9 +55,9 @@ public class ExcelData {
         sheet = workbook.getSheet(sheetName);
         //获取第一行，起始编号为0
         XSSFRow Row = sheet.getRow(0);
-        if (sheet.equals(null)) {
+        if (sheet.equals(null))
             System.out.println("sheet.equals(null),please check the sheet name~~~");
-        }
+
         //Apache的POI时间格式化器DataFormatter
         DataFormatter formatter = new DataFormatter();
         //获取物理行数，不包括空行（隔行）的情况，编号从1开始
